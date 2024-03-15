@@ -1,9 +1,14 @@
+import 'dart:ffi';
+
 void main(){
-  message();
+  message("Rakib","Nilphamari",25);
 
 }
 //functon
-message(){
-  print("First functon");
-  print("Hellow World");
+message(String Name,String address, int age ){
+
+
+  print(Name);
+  print(address);
+ print(age);
 }
